@@ -111,7 +111,7 @@ hi! link Function         Identifier
 call s:h("Statement",     {"fg": s:norm_subtle})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
-hi! link Label            Statement
+hi! link Label            Constant
 hi! link Keyword          Constant
 hi! link Exception        Statement
 
