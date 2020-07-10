@@ -112,7 +112,7 @@ call s:h("Statement",     {"fg": s:norm_subtle})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
-hi! link Keyword          Statement
+hi! link Keyword          Constant
 hi! link Exception        Statement
 
 call s:h("Operator",      {"fg": s:norm, "cterm": "bold", "gui": "bold"})
