@@ -105,7 +105,7 @@ hi! link Float            Constant
 hi! link String           Constant
 
 call s:h("Identifier",    {"fg": s:dark_blue})
-hi! link Identifier       Normal
+hi! link Identifier       Constant
 hi! link Function         Identifier
 
 call s:h("Statement",     {"fg": s:norm_subtle})
